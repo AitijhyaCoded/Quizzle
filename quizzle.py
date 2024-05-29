@@ -4,7 +4,7 @@ while True:
 Enter Q for quiz game
 Enter E to Exit:""")
     if i=='W':
-        print("Arrange the given words to form a sentence")
+        print("Arrange the given words to form a sentence. It is requested to write the words exactly as they are in the question and use a fullstop at the end.")
         word={
             1:{
                 "question":"the/sparrow/from/city/It/disappeared/house/has/seems/common/the/that",
@@ -34,7 +34,8 @@ Enter E to Exit:""")
         score=0
         for question in word:
             print(word[question]['question'])
-            answer=input("Enter answer:")
+            answer_user = input("Enter answer:")
+            answer=answer_user.capitalize()
             if answer==word[question]['answer']:
                 print("Correct answer")
                 score+=1
