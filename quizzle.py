@@ -34,8 +34,7 @@ Enter E to Exit:""")
         score=0
         for question in word:
             print(word[question]['question'])
-            answer_user = input("Enter answer:")
-            answer=answer_user.capitalize()
+            answer=input("Enter answer")
             if answer==word[question]['answer']:
                 print("Correct answer")
                 score+=1
@@ -76,7 +75,8 @@ Enter E to Exit:""")
         score=0
         for question in quiz:
             print(quiz[question]['question'])
-            answer=input("Enter answer:")
+            answer_user = input("Enter answer:")
+            answer=answer_user.capitalize()
             if answer==quiz[question]['answer']:
                 print("Correct answer")
                 score+=1
