@@ -20,7 +20,7 @@ Enter E to Exit:""")
             },
             4: {
                 "question": "occupy/history/in/of/India/honoured/Rajputs/the/the/an/place",
-                "answer": "The Rajputs occupy honoured place in the history of India."
+                "answer": "The Rajputs occupy an honoured place in the history of India."
             },
             5: {
                 "question": "factors/and/pollution/herbs/native/important/the/responsible/are/loss/shrubs/of/and",
