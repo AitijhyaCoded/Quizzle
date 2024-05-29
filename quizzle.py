@@ -12,7 +12,7 @@ Enter E to Exit:""")
             },
             2: {
                 "question": "believed in/People of India/the sacredness of/have traditionally/wildlife",
-                "answer": "People of India have traditionally believed in sacredness of wildlife."
+                "answer": "People of India have traditionally believed in the sacredness of wildlife."
             },
             3: {
                 "question": "they/in the/hall/for/two hours/watching/had been/television",
